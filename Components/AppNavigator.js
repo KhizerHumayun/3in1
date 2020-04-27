@@ -27,7 +27,7 @@ import table5 from './tablepage5'
 import editmenu from './editmenu'
 
 import customerlogin from './customerlogin';
-import customermenu from './customermenu';
+import customermain from './customermain';
 import ordersummary from './ordersummary';
 import CardPayment from './CardPayment';
 
@@ -63,7 +63,7 @@ const stack = createStackNavigator({
 
     //customer
     customerlogin: {screen: customerlogin},
-    customermenu: {screen: customermenu},
+    customermain: {screen: customermain},
     ordersummary: {screen: ordersummary},
     CardPayment: {screen: CardPayment}
 
