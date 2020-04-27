@@ -11,31 +11,8 @@ export default function Menu({navigation}){
         <View style={styles.container}>
              
              <View><Header 
-            title='Main Page'/></View>
+            title='Table Reservation'/></View>
         
-        <View style = {{flexDirection: 'row',justifyContent: 'space-evenly',}}>
-       
-        <View>
-            <TouchableOpacity onPress={() => navigation.navigate('Menu')}>
-            <Text style={{ color: '#f04b48', fontSize: 18, fontWeight: 'bold'}}>Menu</Text>
-            </TouchableOpacity>  
-        </View>
-        <View>
-            <TouchableOpacity onPress={() => navigation.navigate('Favorites')}>
-            <Text style={{color: '#f04b48', fontSize: 18, fontWeight: 'bold'}}>Favorites</Text>
-            </TouchableOpacity>  
-        </View>
-        <View>
-            <TouchableOpacity onPress={() => navigation.navigate('ordersummary')}>
-            <Text style={{color: '#f04b48', fontSize: 18, fontWeight: 'bold'}}>My Orders</Text>
-            </TouchableOpacity>  
-        </View>
-        <View>
-            <TouchableOpacity onPress={() => navigation.navigate('ordersummary')}>
-            <Text style={{color: '#f04b48', fontSize: 18, fontWeight: 'bold'}}>IMRewards</Text>
-            </TouchableOpacity>  
-        </View>
-        </View>
 
  
         <View style = {{flexWrap: 'wrap', flexDirection: 'row', alignItems: 'center', marginLeft: 20 ,justifyContent: 'space-evenly',}}>
@@ -78,17 +55,11 @@ export default function Menu({navigation}){
 
         </View>
 
-        <View style={{marginLeft:80, position: 'absolute', marginTop: 678,  width: 250}}>
-                <Button
-                    onPress={() => navigation.navigate('Reservation')}
-                    title='Reservation'
-                    color='#f04b48' 
-                />
-        </View>   
+        
         <View style={{marginLeft:80, position: 'absolute', marginTop: 635, width: 250}}>
                 <Button
                     onPress={() => navigation.navigate('ordersummary')}
-                    title='Take Away'
+                    title='Reserve Table'
                     color='#f04b48' 
                 />
         </View>   

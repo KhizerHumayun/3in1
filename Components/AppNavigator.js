@@ -30,6 +30,10 @@ import customerlogin from './customerlogin';
 import customermain from './customermain';
 import ordersummary from './ordersummary';
 import CardPayment from './CardPayment';
+import Burgers from './Burgers';
+import Favorites from './Favorites';
+import Reservation from './Reservation';
+import TableMap from './TableMap';
 
 const stack = createStackNavigator({
     begin: {screen:begin},
@@ -65,8 +69,11 @@ const stack = createStackNavigator({
     customerlogin: {screen: customerlogin},
     customermain: {screen: customermain},
     ordersummary: {screen: ordersummary},
-    CardPayment: {screen: CardPayment}
-
+    CardPayment: {screen: CardPayment},
+    Burgers: {screen: Burgers},
+    Favorites: {screen: Favorites},
+    Reservation: {screen: Reservation},
+    TableMap: {screen: TableMap}
 });
  
 const AppNavigator = createAppContainer(stack);
