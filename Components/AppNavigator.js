@@ -7,6 +7,8 @@ import chefregister from './chefregister';
 import chefmain from './chefmain';
 import chefdetail from './chefdetail';
 import chefdone from './chefdone';
+import chefcallserver from './chefcallserver'
+import chefestimate from './chefestimate'
 
 import managerlogin from './managerlogin';
 import managermenu from './managermenu';
@@ -44,6 +46,8 @@ const stack = createStackNavigator({
     chefmain: { screen: chefmain},
     chefdetail: {screen: chefdetail},
     chefdone: {screen: chefdone},
+    chefcallserver: {screen: chefcallserver},
+    chefestimate: {screen: chefestimate},
 
     //manager
     managerlogin: {screen: managerlogin},
